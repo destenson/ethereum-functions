@@ -1,4 +1,4 @@
-# Ethereum Functions
+# 🚧 Ethereum Functions 🚧
 
 This is a functional Ethereum smart contract library.
 
@@ -6,7 +6,7 @@ Each contract in this library will be deployed onto Ethereum's blockchain for us
 
 Each contract in this library will abstract away some of solidity & the EVM's peculiarities, and when used together as a framework, should enable smart contracts to be more fool-proof & less error prone.
 
-## Architecture
+## 🚧 Architecture 🚧
 
 Each smart contract is deployed as a library and normally contains a single function.
 
@@ -23,7 +23,7 @@ This architecture enables function callers also to lookup the implementation of 
 This would also enable authors of other smart contracts to validate the correctness of any algorithm they might choose to call, using automated tools, before allowing their smart contract to use them in the wild.
 
 
-### Solidity rant
+## Solidity rant
 
 There are many improvements to solidity that I think should be made to align its behavior to that expected of it by most developers.
 
